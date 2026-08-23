@@ -1,0 +1,83 @@
+{
+    "sources": [
+        {
+            "label": "AdAway official hosts",
+            "url": "https:\/\/adaway.org\/hosts.txt",
+            "enabled": false,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "Pete Lowe blocklist hosts",
+            "url": "https:\/\/pgl.yoyo.org\/adservers\/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+            "enabled": false,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "StevenBlack Unified hosts",
+            "url": "https:\/\/raw.githubusercontent.com\/StevenBlack\/hosts\/master\/hosts",
+            "enabled": false,
+            "allow": false,
+            "redirect": false
+        }
+    ],
+    "blocked": [
+        {
+            "host": "a771eb34b3544963a00ee48c2a69abff-9d23df9b5f7bf876.elb.eu-south-1.amazonaws.com",
+            "enabled": true
+        },
+        {
+            "host": "1ca563aa7e12449eb3bf6792ec5a44b5-eb86fdd31a6b250b.elb.ap-southeast-5.amazonaws.com",
+            "enabled": true
+        },
+        {
+            "host": "a34cfd3958f14b7e8151dc3976dbf32b-cc4dcc0a0a424e38.elb.ap-southeast-7.amazonaws.com",
+            "enabled": true
+        },
+        {
+            "host": "4f370ddb4d9d4abeab22697ef134c25c-e58845b284930f4a.elb.me-central-1.amazonaws.com",
+            "enabled": true
+        },
+        {
+            "host": "a5e4e5781bee18177.dualstack.awsglobalaccelerator.com",
+            "enabled": true
+        },
+        {
+            "host": "a768074f60058ed9a.dualstack.awsglobalaccelerator.com",
+            "enabled": true
+        },
+        {
+            "host": "a94cc5979b09b8e28.dualstack.awsglobalaccelerator.com",
+            "enabled": true
+        },
+        {
+            "host": "ad8e8a0fcf6865d37.dualstack.awsglobalaccelerator.com",
+            "enabled": true
+        },
+        {
+            "host": "pesam.stun.service.konami.net",
+            "enabled": true
+        },
+        {
+            "host": "ntl.service.konami.net",
+            "enabled": true
+        },
+        {
+            "host": "d1ln4m3c7n87ju.cloudfront.net",
+            "enabled": true
+        },
+        {
+            "host": "49ab79cdaa0c4c3b945bad4707c86b87-51604c0f236abc78.elb.eu-south-1.amazonaws.com",
+            "enabled": true
+        }
+    ],
+    "allowed": [],
+    "redirected": [
+        {
+            "host": "pes22-game.cs.konami.net",
+            "redirect": "100.21.168.14",
+            "enabled": true
+        }
+    ]
+}
